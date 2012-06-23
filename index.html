@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Reward Sample View</title>
+</head>
+<body>
+
+	<div id="wrapper"></div>
+
+	<script type="text/html" id="offer_wall">
+		<ul id='{{ id }}' class='{{ clss }}'></ul>
+	</script>
+
+	<script type="text/html" id="wall_item">
+		<div class='offerThumbnail'>
+			<div><img src='{{ thumbnail }}' alt='{{ title }}' /><span class='actionIco'></span></div>
+		</div>
+		<div class='offerInfo'>
+		<h3 name='{{ title }}'></h3>
+		<p class='offerTypeText'>{{ title }}</p>
+		</div>
+		<div class='currencyCount'>
+		<span class='currency' style='background: url( {{ currency_image }} ) top center no-repeat; -webkit-background-size: auto 100%;'></span><span class='amount'>{{ offer_amount }}</span> 
+		</div> 
+	</script>
+
+	<script type="text/html" id="view_offer">
+		<h3>{{ title }}</h3>
+		<img src="{{ thumbnail }}" />
+		<a href="{{ destination }}">Complete this offer!</a>
+	</script>
+
+
+	<script type="text/javascript" src="js/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="js/lib/underscore-min.js"></script>
+	<script type="text/javascript" src="js/lib/backbone-min.js"></script>
+	<script type="text/javascript" src="js/lib/ICanHaz.min.js"></script>
+	<script type="text/javascript" src="js/lib/data.js"></script>
+	<script type="text/javascript" src="js/backbone-app.js"></script>
+
+</body>
+
+</html>

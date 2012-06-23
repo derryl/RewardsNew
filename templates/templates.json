@@ -1,0 +1,13 @@
+{
+	"main" : { 
+		"name": "main", 
+		"template": "<div id='wrapper'></div>"
+	},
+	"offer_wall" : { 
+		"name": "offer_wall", 
+		"template": "<ul id='{{ id }}' class='{{ clss }}'></ul>" 
+	},
+	"wall_item": {
+		"name": "wall_item",
+		"template": "<li class='offer' data-offer-type='{{ offer_type }}' data-link='{{ destination }}' data-coins-name='{{ currency_name }}' onClick='offerWallItemClick(this)' crid='{{ crid }}'> <div class='offerThumbnail'> <div><img src='{{ thumbnail }}' alt='{{ title }}' /><span class='actionIco'></span> </div> </div> <div class='offerInfo'><h3 name='{{ title }}'></h3><p class='offerTypeText'>{{ title }}</p> </div> <div class='currencyCount'> <span class='currency' style='background: url( {{ currency_image }} ) top center no-repeat; -webkit-background-size: auto 100%;'></span> <span class='amount'>{{ offer_amount }}</span> </div> </li>"}
+}

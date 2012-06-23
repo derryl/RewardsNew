@@ -1,0 +1,38 @@
+{
+	"offers" : [
+
+		{
+			"id":			0,
+			"offer_type": 	1,
+			"title": 		"Check out Coca-Cola now!",
+			"offer_amount": 100,
+			"currency_name": "Gold",
+			"thumbnail": 	"http://www.theblueowl.com/images/menu/coke_logo_button.png",
+			"destination": 	"http://www.burstly.com",
+			"source": 		"Burstly"
+		},
+
+		{
+			"id":			1,
+			"offer_type": 	1,
+			"title": 		"Do something cool!",
+			"offer_amount": 250,
+			"currency_name": "Gold",
+			"thumbnail": 	"http://www.theblueowl.com/images/menu/coke_logo_button.png",
+			"destination": 	"http://www.burstly.com",
+			"source": 		"Burstly"
+		},
+
+		{
+			"id":			2,
+			"offer_type": 	1,
+			"title": 		"Here's another offer!!!",
+			"offer_amount": 75,
+			"currency_name": "Gold",
+			"thumbnail": 	"http://www.theblueowl.com/images/menu/coke_logo_button.png",
+			"destination": 	"http://www.burstly.com",
+			"source": 		"Tapjoy"
+		}
+
+	]
+}
